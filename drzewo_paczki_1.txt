@@ -1,0 +1,1158 @@
+rudy
+├── dayrooms
+│   ├── budziska
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── name.txt
+│   │   │       ├── overview.txt
+│   │   │       └── quick_info.txt
+│   │   └── data.json
+│   ├── jankowice
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── name.txt
+│   │   │       ├── overview.txt
+│   │   │       └── quick_info.txt
+│   │   └── data.json
+│   ├── kuznia
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── name.txt
+│   │   │       ├── overview.txt
+│   │   │       └── quick_info.txt
+│   │   └── data.json
+│   ├── ruda
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── name.txt
+│   │   │       ├── overview.txt
+│   │   │       └── quick_info.txt
+│   │   └── data.json
+│   ├── ruda_kozielska
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── name.txt
+│   │   │       ├── overview.txt
+│   │   │       └── quick_info.txt
+│   │   └── data.json
+│   ├── rudy
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── name.txt
+│   │   │       ├── overview.txt
+│   │   │       └── quick_info.txt
+│   │   └── data.json
+│   ├── siedliska
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── name.txt
+│   │   │       ├── overview.txt
+│   │   │       └── quick_info.txt
+│   │   └── data.json
+│   └── turze
+│       ├── content
+│       │   └── pl
+│       │       ├── name.txt
+│       │       ├── overview.txt
+│       │       └── quick_info.txt
+│       └── data.json
+├── drzewo_paczki_zrodlowej.txt
+├── meta
+│   ├── contributors.json
+│   ├── featured.json
+│   ├── pl
+│   │   └── name.txt
+│   ├── sources.json
+│   ├── thumb.webp
+│   └── thumb_mini.webp
+├── sections
+│   ├── attractions
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── name.txt
+│   │   │       └── quick_info.txt
+│   │   ├── data.json
+│   │   └── places
+│   │       ├── boisko
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       ├── compressed
+│   │       │       │   └── ic_boisko.webp
+│   │       │       └── original
+│   │       │           ├── boisko_1.jpg
+│   │       │           ├── boisko_2.jpg
+│   │       │           └── boisko_3.jpg
+│   │       ├── osrodek_wodnik
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_osrodek_wodnik.png
+│   │       │           ├── osrodek_wodnik_1.jpg
+│   │       │           ├── osrodek_wodnik_2.jpg
+│   │       │           └── osrodek_wodnik_3.jpg
+│   │       ├── plac_zabaw
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_plac_zabaw.webp
+│   │       │           ├── plac_zabaw_1.webp
+│   │       │           ├── plac_zabaw_2.webp
+│   │       │           ├── plac_zabaw_3.webp
+│   │       │           ├── plac_zabaw_4.webp
+│   │       │           └── plac_zabaw_5.webp
+│   │       ├── stacyjkowo
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       ├── compressed
+│   │       │       │   └── ic_stacyjkowo.webp
+│   │       │       └── original
+│   │       │           ├── stacyjkowo_1.jpg
+│   │       │           ├── stacyjkowo_2.jpg
+│   │       │           └── stacyjkowo_3.jpg
+│   │       └── urzadzenia_do_cwiczen
+│   │           ├── content
+│   │           │   └── pl
+│   │           │       ├── name.txt
+│   │           │       ├── overview.txt
+│   │           │       └── quick_info.txt
+│   │           ├── data.json
+│   │           └── images
+│   │               └── compressed
+│   │                   ├── cwiczenia_1.webp
+│   │                   ├── cwiczenia_2.webp
+│   │                   ├── cwiczenia_3.webp
+│   │                   ├── cwiczenia_4.webp
+│   │                   └── ic_cwiczenia.webp
+│   ├── gastros
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── name.txt
+│   │   │       └── quick_info.txt
+│   │   ├── data.json
+│   │   └── places
+│   │       ├── bar_pod_lipami
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── czosnek_n.webp
+│   │       │           ├── dzik.webp
+│   │       │           └── ic_hubertus.webp
+│   │       ├── kuki
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       ├── text_0.txt
+│   │       │   │       ├── text_1.txt
+│   │       │   │       └── text_2.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── hugo_2.webp
+│   │       │           ├── ic_launcher.webp
+│   │       │           ├── opactwo_1.webp
+│   │       │           └── opactwo_2.webp
+│   │       ├── laskowo
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── hvr_1.webp
+│   │       │           ├── hvr_2.webp
+│   │       │           └── ic_hugo_quelle.webp
+│   │       ├── pod_kasztanami
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       ├── text_0.txt
+│   │       │   │       ├── text_1.txt
+│   │       │   │       └── text_2.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── buk_1.webp
+│   │       │           ├── ic_opactwo.webp
+│   │       │           ├── opactwo_3.webp
+│   │       │           └── opactwo_4.webp
+│   │       └── taverna
+│   │           ├── content
+│   │           │   └── pl
+│   │           │       ├── name.txt
+│   │           │       ├── overview.txt
+│   │           │       └── quick_info.txt
+│   │           ├── data.json
+│   │           └── images
+│   │               └── compressed
+│   │                   ├── dziewcze_groby_1.webp
+│   │                   ├── hvr_2.webp
+│   │                   └── ic_boisko.webp
+│   ├── interesting_places
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── name.txt
+│   │   │       └── quick_info.txt
+│   │   ├── data.json
+│   │   └── places
+│   │       ├── aleja_sdm
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── aleja_1.webp
+│   │       │           ├── aleja_2.webp
+│   │       │           └── ic_aleja.webp
+│   │       ├── arentowka
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── arentowka_1.webp
+│   │       │           ├── arentowka_2.webp
+│   │       │           ├── arentowka_3.webp
+│   │       │           └── ic_arentowka.webp
+│   │       ├── biblioteka_pod_chmurka
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── biblioteka_pod_chmurka_1.jpg
+│   │       │           ├── biblioteka_pod_chmurka_2.jpg
+│   │       │           └── ic_biblioteka_pod_chmurka.png
+│   │       ├── buk
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       └── text_0.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── buk_1.webp
+│   │       │           ├── buk_2.webp
+│   │       │           ├── buk_3.webp
+│   │       │           ├── buk_4.webp
+│   │       │           └── ic_buk.webp
+│   │       ├── drogowskaz_maryjny
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── drogowskaz_maryjny_1.webp
+│   │       │           ├── drogowskaz_maryjny_2.webp
+│   │       │           └── ic_drogowskaz_maryjny.webp
+│   │       ├── dziewcze_groby
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── dziewcze_groby_1.webp
+│   │       │           ├── dziewcze_groby_2.webp
+│   │       │           ├── dziewcze_groby_3.webp
+│   │       │           └── ic_dziewcze_groby.webp
+│   │       ├── gora_zamkowa
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── gora_zamkowa_1.webp
+│   │       │           ├── gora_zamkowa_2.webp
+│   │       │           ├── gora_zamkowa_3.webp
+│   │       │           └── ic_gora_zamkowa.webp
+│   │       ├── groby_strazakow
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── groby_strazakow_1.webp
+│   │       │           ├── groby_strazakow_2.webp
+│   │       │           ├── groby_strazakow_3.webp
+│   │       │           └── ic_groby_strazakow.webp
+│   │       ├── hajderowka
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── hajderowka_1.webp
+│   │       │           ├── hajderowka_2.webp
+│   │       │           ├── hajderowka_3.webp
+│   │       │           └── ic_hajderowka.webp
+│   │       ├── hubertus
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── hubertus_1.webp
+│   │       │           ├── hubertus_2.webp
+│   │       │           ├── hubertus_3.webp
+│   │       │           ├── hubertus_4.webp
+│   │       │           └── ic_hubertus.webp
+│   │       ├── hugo_quelle
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── hugo_1.webp
+│   │       │           ├── hugo_2.webp
+│   │       │           ├── hugo_3.webp
+│   │       │           ├── hugo_4.webp
+│   │       │           └── ic_hugo_quelle.webp
+│   │       ├── jagdhaus
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       └── text_0.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       ├── compressed
+│   │       │       │   └── ic_jagdhaus.webp
+│   │       │       └── original
+│   │       │           ├── jagdhaus_1.jpg
+│   │       │           ├── jagdhaus_1c.jpg
+│   │       │           ├── jagdhaus_2.jpg
+│   │       │           └── jagdhaus_3.jpg
+│   │       ├── kapliczka_huberta
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       ├── text_0.txt
+│   │       │   │       └── text_1.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_kapliczka_huberta.png
+│   │       │           ├── kapliczka_huberta_1.jpg
+│   │       │           ├── kapliczka_huberta_2.jpg
+│   │       │           └── kapliczka_huberta_3.jpg
+│   │       ├── kapliczka_slupowa
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_kapliczka_slupowa.webp
+│   │       │           ├── kapliczka_slupowa_1.webp
+│   │       │           ├── kapliczka_slupowa_2.webp
+│   │       │           └── kapliczka_slupowa_3.webp
+│   │       ├── krzyz_1927
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_krzyz.webp
+│   │       │           ├── krzyz_1.webp
+│   │       │           ├── krzyz_2.webp
+│   │       │           └── krzyz_3.webp
+│   │       ├── lawka_zakochanych
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_lawka.webp
+│   │       │           ├── lawka_1.webp
+│   │       │           ├── lawka_2.webp
+│   │       │           └── lawka_3.webp
+│   │       ├── lipki
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_lipki.png
+│   │       │           ├── lipki_1.jpg
+│   │       │           ├── lipki_2.jpg
+│   │       │           ├── lipki_3.jpg
+│   │       │           └── lipki_4.jpg
+│   │       ├── lotnisko
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_lotnisko.png
+│   │       │           ├── lotnisko_1.jpg
+│   │       │           ├── lotnisko_2.jpg
+│   │       │           └── lotnisko_3.jpg
+│   │       ├── orly
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       └── text_0.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_orly.webp
+│   │       │           ├── orly_1.webp
+│   │       │           ├── orly_2.webp
+│   │       │           ├── orly_3.webp
+│   │       │           └── orly_4.webp
+│   │       ├── plac_zwyciestwa
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_plac_zwyciestwa.png
+│   │       │           ├── plac_zwyciestwa_1.jpg
+│   │       │           ├── plac_zwyciestwa_2.jpg
+│   │       │           └── plac_zwyciestwa_3.jpg
+│   │       ├── platforma_widokowa
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_platforma.webp
+│   │       │           ├── platforma_1.webp
+│   │       │           ├── platforma_2.webp
+│   │       │           ├── platforma_3.webp
+│   │       │           └── platforma_4.webp
+│   │       ├── pomnik_wojen
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       └── text_0.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_pomnik_wojen.webp
+│   │       │           ├── pomnik_wojen_1.webp
+│   │       │           └── pomnik_wojen_3.webp
+│   │       ├── raczok
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_raczok.webp
+│   │       │           ├── raczok_1.webp
+│   │       │           ├── raczok_2.webp
+│   │       │           └── raczok_3.webp
+│   │       ├── rudek
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_rudek.webp
+│   │       │           ├── rudek_1.webp
+│   │       │           └── rudek_2.webp
+│   │       ├── siedem_debow
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_siedem_debow.png
+│   │       │           ├── siedem_debow_1.jpg
+│   │       │           ├── siedem_debow_2.jpg
+│   │       │           ├── siedem_debow_3.jpg
+│   │       │           └── siedem_debow_4.jpg
+│   │       ├── spalony_las
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_spalony_las.webp
+│   │       │           ├── spalony_las_1.webp
+│   │       │           ├── spalony_las_2.webp
+│   │       │           ├── spalony_las_3.webp
+│   │       │           └── spalony_las_4.webp
+│   │       ├── stara_droga
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_stara_droga.png
+│   │       │           ├── stara_droga_1.jpg
+│   │       │           ├── stara_droga_2.jpg
+│   │       │           └── stara_droga_3.jpg
+│   │       ├── stary_pien
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_stary_pien.webp
+│   │       │           ├── stary_pien_1.webp
+│   │       │           ├── stary_pien_2.webp
+│   │       │           └── stary_pien_3.webp
+│   │       ├── staw_ksiecia_pana
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_staw_ksiecia_pana.webp
+│   │       │           ├── staw_ksiecia_pana_1.webp
+│   │       │           ├── staw_ksiecia_pana_2.webp
+│   │       │           └── staw_ksiecia_pana_3.webp
+│   │       ├── szklana_kapliczka
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_kapliczka.webp
+│   │       │           ├── szklana_kapliczka_1.webp
+│   │       │           ├── szklana_kapliczka_2.webp
+│   │       │           └── szklana_kapliczka_3.webp
+│   │       ├── wielki_grab
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── grab_1.webp
+│   │       │           └── ic_grab.webp
+│   │       ├── wieza_borowiec
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_wieza_borowiec.png
+│   │       │           ├── wieza_borowiec_1.jpg
+│   │       │           └── wieza_borowiec_2.jpg
+│   │       ├── wildek
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       └── text_0.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       ├── compressed
+│   │       │       │   ├── ic_wildek.webp
+│   │       │       │   ├── wildek_2.webp
+│   │       │       │   └── wildek_3.webp
+│   │       │       └── original
+│   │       │           └── wildek_1.jpg
+│   │       ├── wyspa_zapachow
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_wyspa.webp
+│   │       │           ├── wyspa_1.webp
+│   │       │           ├── wyspa_2.webp
+│   │       │           └── wyspa_3.webp
+│   │       ├── zbiornik_retencyjny
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_zbiornik_retencyjny.png
+│   │       │           ├── zbiornik_retencyjny_1.jpg
+│   │       │           ├── zbiornik_retencyjny_2.jpg
+│   │       │           └── zbiornik_retencyjny_3.jpg
+│   │       └── zielona_klasa
+│   │           ├── content
+│   │           │   └── pl
+│   │           │       ├── name.txt
+│   │           │       ├── overview.txt
+│   │           │       └── quick_info.txt
+│   │           ├── data.json
+│   │           └── images
+│   │               └── compressed
+│   │                   ├── ic_zielona_klasa.webp
+│   │                   ├── zielona_klasa_1.webp
+│   │                   ├── zielona_klasa_2.webp
+│   │                   └── zielona_klasa_3.webp
+│   ├── monuments
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── name.txt
+│   │   │       └── quick_info.txt
+│   │   ├── data.json
+│   │   └── places
+│   │       ├── ceglana_kapliczka
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       ├── text_0.txt
+│   │       │   │       ├── text_1.txt
+│   │       │   │       └── text_2.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       ├── compressed
+│   │       │       │   └── rycina.png
+│   │       │       └── original
+│   │       │           ├── ceglana_kapliczka_1.jpg
+│   │       │           ├── ceglana_kapliczka_2.jpg
+│   │       │           └── ic_ceglana_kapliczka.png
+│   │       ├── cysters
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       ├── text_0.txt
+│   │       │   │       └── text_1.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── cysters_1.webp
+│   │       │           ├── cysters_2.webp
+│   │       │           ├── cysters_3.webp
+│   │       │           └── ic_cysters.webp
+│   │       ├── drewniany_nepomucen
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── drewniany_nepomucen_1.jpg
+│   │       │           ├── drewniany_nepomucen_2.jpg
+│   │       │           └── ic_drewniany_nepomucen.png
+│   │       ├── kapliczka_izydora_oracza
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       ├── text_0.txt
+│   │       │   │       └── text_1.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_kapliczka_izydora_oracza.png
+│   │       │           ├── kapliczka_izydora_oracza_1.jpg
+│   │       │           └── kapliczka_izydora_oracza_2.jpg
+│   │       ├── kosciol_cmentarny
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_kosciol_cmentarny.webp
+│   │       │           ├── kosciol_cmentarny_1.webp
+│   │       │           ├── kosciol_cmentarny_2.webp
+│   │       │           └── kosciol_cmentarny_3.webp
+│   │       ├── kosciol_marii_magdaleny
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_kosciol_marii_magdaleny.png
+│   │       │           ├── kosciol_marii_magdaleny_1.jpg
+│   │       │           ├── kosciol_marii_magdaleny_2.jpg
+│   │       │           ├── kosciol_marii_magdaleny_3.jpg
+│   │       │           └── kosciol_marii_magdaleny_4.jpg
+│   │       ├── lesniczowka_krasiejow
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_lesniczowka_krasiejow.png
+│   │       │           ├── lesniczowka_krasiejow_1.jpg
+│   │       │           └── lesniczowka_krasiejow_2.jpg
+│   │       ├── magdalenka
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       └── text_0.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_magdalenka.webp
+│   │       │           ├── magdalenka_1.webp
+│   │       │           ├── magdalenka_2.webp
+│   │       │           ├── magdalenka_3.webp
+│   │       │           └── magdalenka_4.webp
+│   │       ├── nepomucen_na_parkingu
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       ├── text_0.txt
+│   │       │   │       └── text_1.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_nepomucen_na_parkingu.png
+│   │       │           ├── nepomucen_na_parkingu_1.jpg
+│   │       │           ├── nepomucen_na_parkingu_2.jpg
+│   │       │           └── nepomucen_na_parkingu_3.jpg
+│   │       ├── nepomucen_w_jankowicach
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       └── quick_info.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_nepomucen_w_jankowicach.png
+│   │       │           ├── nepomucen_w_jankowicach_1.jpg
+│   │       │           └── nepomucen_w_jankowicach_2.jpg
+│   │       ├── opactwo
+│   │       │   ├── actions.json
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── action_0.txt
+│   │       │   │       ├── action_1.txt
+│   │       │   │       ├── action_2.txt
+│   │       │   │       ├── action_3.txt
+│   │       │   │       ├── action_4.txt
+│   │       │   │       ├── action_5.txt
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       ├── text_0.txt
+│   │       │   │       └── text_1.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_opactwo.webp
+│   │       │           ├── opactwo_1.webp
+│   │       │           ├── opactwo_2.webp
+│   │       │           ├── opactwo_3.webp
+│   │       │           ├── opactwo_4.webp
+│   │       │           └── opactwo_5.webp
+│   │       ├── plebania
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       ├── text_0.txt
+│   │       │   │       └── text_1.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_plebania.png
+│   │       │           ├── plebania_1.jpg
+│   │       │           ├── plebania_2.jpg
+│   │       │           ├── plebania_3.jpg
+│   │       │           └── plebania_4.jpg
+│   │       ├── pomnik_schoenawy
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       └── text_0.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── original
+│   │       │           ├── ic_pomnik_schoenawy.png
+│   │       │           ├── pomnik_schoenawy_1.jpg
+│   │       │           ├── pomnik_schoenawy_2.jpg
+│   │       │           └── pomnik_schoenawy_3.jpg
+│   │       ├── stacja_kolei
+│   │       │   ├── actions.json
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── action_0.txt
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       ├── text_0.txt
+│   │       │   │       ├── text_1.txt
+│   │       │   │       └── text_2.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_stacja_kolei.webp
+│   │       │           ├── stacja_kolei_1.webp
+│   │       │           ├── stacja_kolei_2.webp
+│   │       │           ├── stacja_kolei_3.webp
+│   │       │           └── stacja_kolei_4.webp
+│   │       ├── szpitalik
+│   │       │   ├── actions.json
+│   │       │   ├── content
+│   │       │   │   └── pl
+│   │       │   │       ├── action_0.txt
+│   │       │   │       ├── name.txt
+│   │       │   │       ├── overview.txt
+│   │       │   │       ├── quick_info.txt
+│   │       │   │       ├── text_0.txt
+│   │       │   │       └── text_1.txt
+│   │       │   ├── data.json
+│   │       │   └── images
+│   │       │       └── compressed
+│   │       │           ├── ic_szpitalik.webp
+│   │       │           ├── juliusz_roger.webp
+│   │       │           ├── szpitalik_1.webp
+│   │       │           ├── szpitalik_2.webp
+│   │       │           └── szpitalik_3.webp
+│   │       └── unseren_helden
+│   │           ├── content
+│   │           │   └── pl
+│   │           │       ├── name.txt
+│   │           │       ├── overview.txt
+│   │           │       └── quick_info.txt
+│   │           ├── data.json
+│   │           └── images
+│   │               └── compressed
+│   │                   ├── ic_unseren_helden.webp
+│   │                   ├── unseren_helden_1.webp
+│   │                   └── unseren_helden_2.webp
+│   └── stones
+│       ├── content
+│       │   └── pl
+│       │       ├── name.txt
+│       │       └── quick_info.txt
+│       ├── data.json
+│       └── places
+│           ├── darz_bor
+│           │   ├── content
+│           │   │   └── pl
+│           │   │       ├── name.txt
+│           │   │       ├── overview.txt
+│           │   │       └── quick_info.txt
+│           │   ├── data.json
+│           │   └── images
+│           │       └── compressed
+│           │           ├── darz_bor_1.webp
+│           │           ├── darz_bor_2.webp
+│           │           └── ic_darz_bor.webp
+│           ├── dublet
+│           │   ├── content
+│           │   │   └── pl
+│           │   │       ├── name.txt
+│           │   │       ├── overview.txt
+│           │   │       └── quick_info.txt
+│           │   ├── data.json
+│           │   └── images
+│           │       └── compressed
+│           │           ├── dublet_1.webp
+│           │           ├── dublet_2.webp
+│           │           └── ic_dublet.webp
+│           ├── dziesiatak
+│           │   ├── content
+│           │   │   └── pl
+│           │   │       ├── name.txt
+│           │   │       ├── overview.txt
+│           │   │       └── quick_info.txt
+│           │   ├── data.json
+│           │   └── images
+│           │       └── compressed
+│           │           ├── dziesiatak_1.webp
+│           │           ├── dziesiatak_2.webp
+│           │           ├── dziesiatak_3.webp
+│           │           └── ic_dziesiatak.webp
+│           ├── dzik
+│           │   ├── content
+│           │   │   └── pl
+│           │   │       ├── name.txt
+│           │   │       ├── overview.txt
+│           │   │       └── quick_info.txt
+│           │   ├── data.json
+│           │   └── images
+│           │       └── original
+│           │           ├── dzik_1.jpg
+│           │           ├── dzik_2.jpg
+│           │           └── ic_dzik.png
+│           ├── hvr
+│           │   ├── content
+│           │   │   └── pl
+│           │   │       ├── name.txt
+│           │   │       ├── overview.txt
+│           │   │       └── quick_info.txt
+│           │   ├── data.json
+│           │   └── images
+│           │       └── compressed
+│           │           ├── hvr_1.webp
+│           │           ├── hvr_2.webp
+│           │           └── ic_hvr.webp
+│           ├── jelen
+│           │   ├── content
+│           │   │   └── pl
+│           │   │       ├── name.txt
+│           │   │       ├── overview.txt
+│           │   │       └── quick_info.txt
+│           │   ├── data.json
+│           │   └── images
+│           │       ├── compressed
+│           │       │   ├── ic_jelen.webp
+│           │       │   ├── jelen_1.webp
+│           │       │   └── jelen_2.webp
+│           │       └── original
+│           │           └── jelen_3.jpg
+│           ├── krolik
+│           │   ├── content
+│           │   │   └── pl
+│           │   │       ├── name.txt
+│           │   │       ├── overview.txt
+│           │   │       └── quick_info.txt
+│           │   ├── data.json
+│           │   └── images
+│           │       └── compressed
+│           │           ├── ic_krolik.webp
+│           │           ├── krolik_1.webp
+│           │           ├── krolik_2.webp
+│           │           └── krolik_3.webp
+│           ├── niedzwiedz
+│           │   ├── content
+│           │   │   └── pl
+│           │   │       ├── name.txt
+│           │   │       ├── overview.txt
+│           │   │       └── quick_info.txt
+│           │   ├── data.json
+│           │   └── images
+│           │       └── compressed
+│           │           ├── ic_niedzwiedz.webp
+│           │           ├── niedzwiedz_1.webp
+│           │           ├── niedzwiedz_2.webp
+│           │           └── niedzwiedz_3.webp
+│           └── weidmannsheil
+│               ├── content
+│               │   └── pl
+│               │       ├── name.txt
+│               │       ├── overview.txt
+│               │       ├── quick_info.txt
+│               │       └── text_0.txt
+│               ├── data.json
+│               └── images
+│                   └── compressed
+│                       ├── ic_weidmannsheil.webp
+│                       ├── weidmannsheil_1.webp
+│                       ├── weidmannsheil_2.webp
+│                       └── weidmannsheil_3.webp
+├── stories
+│   ├── ii_wojna_swiatowa
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── ii_wojna_swiatowa.md
+│   │   │       └── name.txt
+│   │   ├── data.json
+│   │   └── images
+│   │       └── compressed
+│   │           └── rudy_czolgi.webp
+│   ├── lasy_rudzkie
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── lasy_rudzkie.md
+│   │   │       └── name.txt
+│   │   ├── data.json
+│   │   └── images
+│   │       └── compressed
+│   │           ├── cysters_1.webp
+│   │           ├── czosnek_niedzwiedzi.webp
+│   │           ├── dudek.webp
+│   │           ├── dzik.webp
+│   │           ├── grab_1.webp
+│   │           ├── jelen.webp
+│   │           ├── jenoty.webp
+│   │           ├── kotewka.webp
+│   │           ├── las_1.webp
+│   │           ├── lezczok_1.webp
+│   │           ├── lezczok_2.webp
+│   │           ├── lisy.webp
+│   │           ├── meandry.webp
+│   │           ├── nadlesnictwo_tablica.webp
+│   │           ├── ruda_w_kuzni.webp
+│   │           ├── rudy_czolgi.webp
+│   │           └── zajac.webp
+│   ├── legenda_o_powstaniu_opactwa_1
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── legenda_o_powstaniu_opactwa_1.md
+│   │   │       └── name.txt
+│   │   └── data.json
+│   ├── legenda_o_powstaniu_opactwa_2
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── legenda_o_powstaniu_opactwa_2.md
+│   │   │       └── name.txt
+│   │   └── data.json
+│   ├── legenda_o_powstaniu_opactwa_3
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── legenda_o_powstaniu_opactwa_3.md
+│   │   │       └── name.txt
+│   │   └── data.json
+│   ├── legenda_o_przeryciu
+│   │   ├── content
+│   │   │   └── pl
+│   │   │       ├── legenda_o_przeryciu.md
+│   │   │       └── name.txt
+│   │   └── data.json
+│   └── legenda_o_zapadlym_zamczysku
+│       ├── content
+│       │   └── pl
+│       │       ├── legenda_o_zapadlym_zamczysku.md
+│       │       └── name.txt
+│       └── data.json
+└── tracks
+    ├── wolnosc_w_naturze_long
+    │   ├── content
+    │   │   └── pl
+    │   │       ├── name.txt
+    │   │       ├── overview.txt
+    │   │       └── quick_info.txt
+    │   └── data.json
+    └── wolnosc_w_naturze_short
+        ├── content
+        │   └── pl
+        │       ├── name.txt
+        │       ├── overview.txt
+        │       └── quick_info.txt
+        └── data.json
+
+442 directories, 713 files
